@@ -1,0 +1,33 @@
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav {
+    width: 200px;
+}
+
+.toolbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 50%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(32, 30, 176);
+
+    mat-icon {
+        margin-right: 8px;
+    }
+}
+
+.nav-links {
+    display: flex;
+    background-color: red;
+    gap: 16px;
+}
